@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Alberto Ioannis Ruano Ramos">
+    <meta name="keywords" content="Alberto Ruano, Portafolio de evidencias, Ingeniería en Sistemas, MySQL, Java">
+    <meta name="description" content="Portafolio académico y personal de evidencia de proyectos de ingeniería en sistemas.">
+    <title>Portafolio de evidencias | Ioannis Ruano - Ingeniería en Sistemas</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href = "./favicon/Iconito.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="titulo">Contratame</h1>
+            <nav class="navegacion">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#perfil">Sobre Mí</a></li>
+                <li><a href="#academico">Educación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+        <main>
+         <section id="inicio">
+            <meta name="keywords" content="Inicio, Bienvenida, Portafolio">
+            <h2><i class="fa-solid fa-house"></i> Portafolio de evidencias</h2>
+            <img src="./imagenes/tux.jpg" alt="Fotico de perfil Tux">  
+            <br>
+            <br>
+            <span>En esta página web se darán a conocer mis trabajos para que el visitante pueda darse una idea de qué clase de proyectos puedo llegar a realizar.</span>        
+            </section>    
+
+        <hr>
+        <section id="perfil">
+            <meta name="keywords" content="Datos personales, Biografía, Perfil">
+            <h2><i class="fa-solid fa-user"></i> Sobre Mí</h2>
+            <p>Un universitario apasionado por la tecnología que desarrolla software y diseña bases de datos relacionales.</p>
+            <h3>Habilidades Técnicas:</h3>
+            <ul>
+                <li><i class="fa-brands fa-html5"></i> HTML5 y CSS3</li>
+                <li><i class="fa-solid fa-code"></i> Programación Web y C++</li>
+                <li><i class="fa-solid fa-database"></i> Creación de Bases de Datos</li>
+            </ul>
+        </section>
+
+        <hr>
+        <section id="academico">
+            <meta name="keywords" content="Educación, Historial Académico, Experiencia">
+            <h2><i class="fa-solid fa-graduation-cap"></i> Formación Académica</h2>
+            <p><strong>Mi universidad:</strong> Universidad Tecnológica de León (UTL)</p>
+            <p><strong>Mis proyectos universitarios:</strong> Creación de base de datos y aplicaciones.</p>
+        </section>
+
+        <hr>
+        <section id="proyectos">
+            <meta name="keywords" content="Proyectos, Evidencias, Trabajos">
+            <h2><i class="fa-solid fa-folder-open"></i> Mis Proyectos</h2>
+            <article>
+                <h3>1. Sistema de Base de Datos</h3>
+                <p>Diseño e implementación de tablas dentro de MySQL.</p>
+            </article>
+            <article>
+                <h3>2. Aplicación C++</h3>
+                <p>Desarrollo de apps mediante el lenguaje C++.</p>
+            </article>
+            <article>
+                <h3>3. Conocimiento de Kotlin</h3>
+                <p>Desarrollo de apps mediante el lenguaje C++.</p>
+            </article>
+        </section>
+
+        <hr>
+        <section id="multimedia">
+            <meta name="keywords" content="Multimedia, Video, Audio, Imagen">
+            <h2><i class="fa-solid fa-photo-film"></i> Sección Multimedia</h2>
+            
+            <h3>Video de muestra:</h3>
+            <video controls width="300">
+                <source src="./videos/Nirvana.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+
+            <h3>Audio de muestra:</h3>
+            <audio controls>
+                <source src="./audios/Daftpunk.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <hr>
+        <section id="contacto">
+            <meta name="keywords" content="Contacto, Formulario, Correo">
+            <h2><i class="fa-solid fa-envelope"></i> Contacto</h2>
+            <form action="#" method="POST" id="form-contacto">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Correo Electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página y Redes Sociales (Requisito Rúbrica) -->
+    <footer>
+        <div class="redes-sociales">
+            <h3>Redes Sociales</h3>
+            <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        </div>
+        <p> 2026 Alberto Ioannis Ruano Ramos - Universidad Tecnológica de León</p>
+    </footer>
+
+</body>
+</html>
